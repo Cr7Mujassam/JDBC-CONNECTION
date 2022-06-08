@@ -14,7 +14,7 @@ public class DmlSql {
 		//Create a querry/Statement
 		Statement stmt = con.createStatement();
 		
-		String s ="INSERT INTO T1 VALUES(?,?,?)";
+		String s ="INSERT INTO T1 VALUES(101,"Mujassam","Khan")";
 		String z = "SELECT * FROM T1";
 		
 		
